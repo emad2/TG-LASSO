@@ -26,6 +26,7 @@ Instead of installing all these libraries independently, you can use prebulit Py
 #### Gene expression files :
 These are genes x samples csv files where the first column contains name of genes and the first row contains name/IDs of the samples. The training gene expression file is obtained from GDSC and the test file is obtained from TGCA. 
 The files are homogenized using ComBat for batch effect removal to homogenize the gene expression data from GDSC (microarray) and TGCA (RNA-seq)
+As input examples, we have have provided these files [here](https://www.dropbox.com/s/vwhtcf7rdko26tw/TG_LASSO_GeneExpressionInput.zip?dl=0). 
 
 Example of Gene expression file - 
 
